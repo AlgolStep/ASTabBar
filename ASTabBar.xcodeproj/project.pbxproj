@@ -9,11 +9,26 @@
 /* Begin PBXBuildFile section */
 		30FA3D301A6F74B900CCB8D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D2F1A6F74B900CCB8D1 /* main.m */; };
 		30FA3D331A6F74B900CCB8D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D321A6F74B900CCB8D1 /* AppDelegate.m */; };
-		30FA3D361A6F74B900CCB8D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D351A6F74B900CCB8D1 /* ViewController.m */; };
 		30FA3D391A6F74B900CCB8D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D371A6F74B900CCB8D1 /* Main.storyboard */; };
 		30FA3D3B1A6F74B900CCB8D1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D3A1A6F74B900CCB8D1 /* Images.xcassets */; };
 		30FA3D3E1A6F74B900CCB8D1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D3C1A6F74B900CCB8D1 /* LaunchScreen.xib */; };
 		30FA3D4A1A6F74B900CCB8D1 /* ASTabBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D491A6F74B900CCB8D1 /* ASTabBarTests.m */; };
+		30FA3D6A1A6F74DD00CCB8D1 /* ASButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D541A6F74DD00CCB8D1 /* ASButton.m */; };
+		30FA3D6B1A6F74DD00CCB8D1 /* ASViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D561A6F74DD00CCB8D1 /* ASViewController.m */; };
+		30FA3D6C1A6F74DD00CCB8D1 /* FifthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D581A6F74DD00CCB8D1 /* FifthViewController.m */; };
+		30FA3D6D1A6F74DD00CCB8D1 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D5A1A6F74DD00CCB8D1 /* FirstViewController.m */; };
+		30FA3D6E1A6F74DD00CCB8D1 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D5C1A6F74DD00CCB8D1 /* FourthViewController.m */; };
+		30FA3D6F1A6F74DD00CCB8D1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D5E1A6F74DD00CCB8D1 /* SecondViewController.m */; };
+		30FA3D701A6F74DD00CCB8D1 /* SZ_kc@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D5F1A6F74DD00CCB8D1 /* SZ_kc@2x.png */; };
+		30FA3D711A6F74DD00CCB8D1 /* SZ_kcH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D601A6F74DD00CCB8D1 /* SZ_kcH@2x.png */; };
+		30FA3D721A6F74DD00CCB8D1 /* SZ_QS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D611A6F74DD00CCB8D1 /* SZ_QS@2x.png */; };
+		30FA3D731A6F74DD00CCB8D1 /* SZ_QSH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D621A6F74DD00CCB8D1 /* SZ_QSH@2x.png */; };
+		30FA3D741A6F74DD00CCB8D1 /* SZ_time@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D631A6F74DD00CCB8D1 /* SZ_time@2x.png */; };
+		30FA3D751A6F74DD00CCB8D1 /* SZ_timeH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D641A6F74DD00CCB8D1 /* SZ_timeH@2x.png */; };
+		30FA3D761A6F74DD00CCB8D1 /* SZ_TS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D651A6F74DD00CCB8D1 /* SZ_TS@2x.png */; };
+		30FA3D771A6F74DD00CCB8D1 /* SZ_TSH@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D661A6F74DD00CCB8D1 /* SZ_TSH@2x.png */; };
+		30FA3D781A6F74DD00CCB8D1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D681A6F74DD00CCB8D1 /* ThirdViewController.m */; };
+		30FA3D791A6F74DD00CCB8D1 /* title_background.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FA3D691A6F74DD00CCB8D1 /* title_background.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +47,35 @@
 		30FA3D2F1A6F74B900CCB8D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		30FA3D311A6F74B900CCB8D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		30FA3D321A6F74B900CCB8D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		30FA3D341A6F74B900CCB8D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		30FA3D351A6F74B900CCB8D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		30FA3D381A6F74B900CCB8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		30FA3D3A1A6F74B900CCB8D1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		30FA3D3D1A6F74B900CCB8D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		30FA3D431A6F74B900CCB8D1 /* ASTabBarTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTabBarTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		30FA3D481A6F74B900CCB8D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30FA3D491A6F74B900CCB8D1 /* ASTabBarTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ASTabBarTests.m; sourceTree = "<group>"; };
+		30FA3D531A6F74DD00CCB8D1 /* ASButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASButton.h; sourceTree = "<group>"; };
+		30FA3D541A6F74DD00CCB8D1 /* ASButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASButton.m; sourceTree = "<group>"; };
+		30FA3D551A6F74DD00CCB8D1 /* ASViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASViewController.h; sourceTree = "<group>"; };
+		30FA3D561A6F74DD00CCB8D1 /* ASViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASViewController.m; sourceTree = "<group>"; };
+		30FA3D571A6F74DD00CCB8D1 /* FifthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FifthViewController.h; sourceTree = "<group>"; };
+		30FA3D581A6F74DD00CCB8D1 /* FifthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FifthViewController.m; sourceTree = "<group>"; };
+		30FA3D591A6F74DD00CCB8D1 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		30FA3D5A1A6F74DD00CCB8D1 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		30FA3D5B1A6F74DD00CCB8D1 /* FourthViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourthViewController.h; sourceTree = "<group>"; };
+		30FA3D5C1A6F74DD00CCB8D1 /* FourthViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourthViewController.m; sourceTree = "<group>"; };
+		30FA3D5D1A6F74DD00CCB8D1 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		30FA3D5E1A6F74DD00CCB8D1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		30FA3D5F1A6F74DD00CCB8D1 /* SZ_kc@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_kc@2x.png"; sourceTree = "<group>"; };
+		30FA3D601A6F74DD00CCB8D1 /* SZ_kcH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_kcH@2x.png"; sourceTree = "<group>"; };
+		30FA3D611A6F74DD00CCB8D1 /* SZ_QS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_QS@2x.png"; sourceTree = "<group>"; };
+		30FA3D621A6F74DD00CCB8D1 /* SZ_QSH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_QSH@2x.png"; sourceTree = "<group>"; };
+		30FA3D631A6F74DD00CCB8D1 /* SZ_time@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_time@2x.png"; sourceTree = "<group>"; };
+		30FA3D641A6F74DD00CCB8D1 /* SZ_timeH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_timeH@2x.png"; sourceTree = "<group>"; };
+		30FA3D651A6F74DD00CCB8D1 /* SZ_TS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_TS@2x.png"; sourceTree = "<group>"; };
+		30FA3D661A6F74DD00CCB8D1 /* SZ_TSH@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SZ_TSH@2x.png"; sourceTree = "<group>"; };
+		30FA3D671A6F74DD00CCB8D1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		30FA3D681A6F74DD00CCB8D1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		30FA3D691A6F74DD00CCB8D1 /* title_background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = title_background.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,9 +119,30 @@
 			children = (
 				30FA3D311A6F74B900CCB8D1 /* AppDelegate.h */,
 				30FA3D321A6F74B900CCB8D1 /* AppDelegate.m */,
-				30FA3D341A6F74B900CCB8D1 /* ViewController.h */,
-				30FA3D351A6F74B900CCB8D1 /* ViewController.m */,
 				30FA3D371A6F74B900CCB8D1 /* Main.storyboard */,
+				30FA3D531A6F74DD00CCB8D1 /* ASButton.h */,
+				30FA3D541A6F74DD00CCB8D1 /* ASButton.m */,
+				30FA3D551A6F74DD00CCB8D1 /* ASViewController.h */,
+				30FA3D561A6F74DD00CCB8D1 /* ASViewController.m */,
+				30FA3D571A6F74DD00CCB8D1 /* FifthViewController.h */,
+				30FA3D581A6F74DD00CCB8D1 /* FifthViewController.m */,
+				30FA3D591A6F74DD00CCB8D1 /* FirstViewController.h */,
+				30FA3D5A1A6F74DD00CCB8D1 /* FirstViewController.m */,
+				30FA3D5B1A6F74DD00CCB8D1 /* FourthViewController.h */,
+				30FA3D5C1A6F74DD00CCB8D1 /* FourthViewController.m */,
+				30FA3D5D1A6F74DD00CCB8D1 /* SecondViewController.h */,
+				30FA3D5E1A6F74DD00CCB8D1 /* SecondViewController.m */,
+				30FA3D671A6F74DD00CCB8D1 /* ThirdViewController.h */,
+				30FA3D681A6F74DD00CCB8D1 /* ThirdViewController.m */,
+				30FA3D5F1A6F74DD00CCB8D1 /* SZ_kc@2x.png */,
+				30FA3D601A6F74DD00CCB8D1 /* SZ_kcH@2x.png */,
+				30FA3D611A6F74DD00CCB8D1 /* SZ_QS@2x.png */,
+				30FA3D621A6F74DD00CCB8D1 /* SZ_QSH@2x.png */,
+				30FA3D631A6F74DD00CCB8D1 /* SZ_time@2x.png */,
+				30FA3D641A6F74DD00CCB8D1 /* SZ_timeH@2x.png */,
+				30FA3D651A6F74DD00CCB8D1 /* SZ_TS@2x.png */,
+				30FA3D661A6F74DD00CCB8D1 /* SZ_TSH@2x.png */,
+				30FA3D691A6F74DD00CCB8D1 /* title_background.png */,
 				30FA3D3A1A6F74B900CCB8D1 /* Images.xcassets */,
 				30FA3D3C1A6F74B900CCB8D1 /* LaunchScreen.xib */,
 				30FA3D2D1A6F74B900CCB8D1 /* Supporting Files */,
@@ -199,9 +256,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30FA3D761A6F74DD00CCB8D1 /* SZ_TS@2x.png in Resources */,
 				30FA3D391A6F74B900CCB8D1 /* Main.storyboard in Resources */,
+				30FA3D721A6F74DD00CCB8D1 /* SZ_QS@2x.png in Resources */,
+				30FA3D751A6F74DD00CCB8D1 /* SZ_timeH@2x.png in Resources */,
 				30FA3D3E1A6F74B900CCB8D1 /* LaunchScreen.xib in Resources */,
 				30FA3D3B1A6F74B900CCB8D1 /* Images.xcassets in Resources */,
+				30FA3D771A6F74DD00CCB8D1 /* SZ_TSH@2x.png in Resources */,
+				30FA3D711A6F74DD00CCB8D1 /* SZ_kcH@2x.png in Resources */,
+				30FA3D791A6F74DD00CCB8D1 /* title_background.png in Resources */,
+				30FA3D701A6F74DD00CCB8D1 /* SZ_kc@2x.png in Resources */,
+				30FA3D741A6F74DD00CCB8D1 /* SZ_time@2x.png in Resources */,
+				30FA3D731A6F74DD00CCB8D1 /* SZ_QSH@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +285,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				30FA3D361A6F74B900CCB8D1 /* ViewController.m in Sources */,
+				30FA3D6F1A6F74DD00CCB8D1 /* SecondViewController.m in Sources */,
+				30FA3D6E1A6F74DD00CCB8D1 /* FourthViewController.m in Sources */,
+				30FA3D6C1A6F74DD00CCB8D1 /* FifthViewController.m in Sources */,
+				30FA3D6D1A6F74DD00CCB8D1 /* FirstViewController.m in Sources */,
+				30FA3D6A1A6F74DD00CCB8D1 /* ASButton.m in Sources */,
+				30FA3D781A6F74DD00CCB8D1 /* ThirdViewController.m in Sources */,
 				30FA3D331A6F74B900CCB8D1 /* AppDelegate.m in Sources */,
 				30FA3D301A6F74B900CCB8D1 /* main.m in Sources */,
+				30FA3D6B1A6F74DD00CCB8D1 /* ASViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,8 +418,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -356,8 +430,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ASTabBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};

@@ -29,7 +29,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-    
+//    first
     UIButton * button = [[UIButton alloc]initWithFrame:self.view.frame];
     [button setTitle:@"点击" forState:UIControlStateNormal];
     [button addTarget:self action:@selector(goOtherView:) forControlEvents:UIControlEventTouchUpInside];

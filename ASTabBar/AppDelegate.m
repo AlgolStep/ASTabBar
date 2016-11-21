@@ -23,7 +23,6 @@
     
     _viewController = [[TVBViewController alloc]init];
     
-    //    UINavigationController * navi = [[UINavigationController alloc]initWithRootViewController:_viewController];
     
     self.window.rootViewController = _viewController;
     

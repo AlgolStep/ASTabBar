@@ -7,9 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ASViewController.h"
+#import "TVBViewController.h"
 @interface FirstViewController : UIViewController
 
-@property (nonatomic ,weak) ASViewController * delegate;
+@property (nonatomic ,weak) TVBViewController * delegate;
 
 @end

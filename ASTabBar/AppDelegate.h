@@ -7,12 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "ASViewController.h"
+#import "TVBViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
-@property (strong ,nonatomic) ASViewController * viewController;
+@property (strong ,nonatomic) TVBViewController * viewController;
 
 @end
 

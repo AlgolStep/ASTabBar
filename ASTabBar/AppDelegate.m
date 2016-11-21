@@ -21,7 +21,7 @@
     
     self.window.backgroundColor = [UIColor whiteColor];
     
-    _viewController = [[ASViewController alloc]init];
+    _viewController = [[TVBViewController alloc]init];
     
     //    UINavigationController * navi = [[UINavigationController alloc]initWithRootViewController:_viewController];
     

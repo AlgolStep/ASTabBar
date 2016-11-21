@@ -1,5 +1,5 @@
 //
-//  ASButton.h
+//  ASViewController.h
 //  tabbarDemo
 //
 //  Created by MD101 on 14-10-8.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ASButton : UIButton
+@interface TVBViewController : UITabBarController
 
 @end

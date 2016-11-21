@@ -44,15 +44,13 @@
 - (void)goOtherView:(UIButton *)sender{
     
     FifthViewController * fifth = [[FifthViewController alloc]init];
-    [self.delegate isHiddenCustomTabBarByBoolean:YES];
+    fifth.hidesBottomBarWhenPushed = YES;
     [self.navigationController pushViewController:fifth animated:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated{
 
     [super viewWillAppear:animated];
-    
-    [self.delegate isHiddenCustomTabBarByBoolean:NO];
 
 }
 

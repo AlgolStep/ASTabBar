@@ -19,6 +19,10 @@
 		30FA3D6E1A6F74DD00CCB8D1 /* FourthViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D5C1A6F74DD00CCB8D1 /* FourthViewController.m */; };
 		30FA3D6F1A6F74DD00CCB8D1 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D5E1A6F74DD00CCB8D1 /* SecondViewController.m */; };
 		30FA3D781A6F74DD00CCB8D1 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30FA3D681A6F74DD00CCB8D1 /* ThirdViewController.m */; };
+		8198370F1DEFD50F0044C3FA /* EncryptionHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198370E1DEFD50F0044C3FA /* EncryptionHelper.m */; };
+		819837121DEFDFC60044C3FA /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 819837111DEFDFC60044C3FA /* Base64.m */; };
+		8198371C1DF0238D0044C3FA /* EncyptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8198371A1DF0238D0044C3FA /* EncyptionViewController.m */; };
+		8198371D1DF0238D0044C3FA /* EncyptionViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8198371B1DF0238D0044C3FA /* EncyptionViewController.xib */; };
 		81F801851DE2C9D500166498 /* TVBTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 81F801841DE2C9D500166498 /* TVBTabBarItem.m */; };
 /* End PBXBuildFile section */
 
@@ -56,6 +60,13 @@
 		30FA3D5E1A6F74DD00CCB8D1 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		30FA3D671A6F74DD00CCB8D1 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		30FA3D681A6F74DD00CCB8D1 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		8198370D1DEFD50F0044C3FA /* EncryptionHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncryptionHelper.h; sourceTree = "<group>"; };
+		8198370E1DEFD50F0044C3FA /* EncryptionHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncryptionHelper.m; sourceTree = "<group>"; };
+		819837101DEFDFC60044C3FA /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		819837111DEFDFC60044C3FA /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		819837191DF0238D0044C3FA /* EncyptionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EncyptionViewController.h; sourceTree = "<group>"; };
+		8198371A1DF0238D0044C3FA /* EncyptionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EncyptionViewController.m; sourceTree = "<group>"; };
+		8198371B1DF0238D0044C3FA /* EncyptionViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EncyptionViewController.xib; sourceTree = "<group>"; };
 		81F801831DE2C9D500166498 /* TVBTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TVBTabBarItem.h; sourceTree = "<group>"; };
 		81F801841DE2C9D500166498 /* TVBTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TVBTabBarItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -106,6 +117,9 @@
 				30FA3D561A6F74DD00CCB8D1 /* TVBViewController.m */,
 				81F801831DE2C9D500166498 /* TVBTabBarItem.h */,
 				81F801841DE2C9D500166498 /* TVBTabBarItem.m */,
+				819837191DF0238D0044C3FA /* EncyptionViewController.h */,
+				8198371A1DF0238D0044C3FA /* EncyptionViewController.m */,
+				8198371B1DF0238D0044C3FA /* EncyptionViewController.xib */,
 				30FA3D571A6F74DD00CCB8D1 /* FifthViewController.h */,
 				30FA3D581A6F74DD00CCB8D1 /* FifthViewController.m */,
 				30FA3D591A6F74DD00CCB8D1 /* FirstViewController.h */,
@@ -116,6 +130,10 @@
 				30FA3D5E1A6F74DD00CCB8D1 /* SecondViewController.m */,
 				30FA3D671A6F74DD00CCB8D1 /* ThirdViewController.h */,
 				30FA3D681A6F74DD00CCB8D1 /* ThirdViewController.m */,
+				8198370D1DEFD50F0044C3FA /* EncryptionHelper.h */,
+				8198370E1DEFD50F0044C3FA /* EncryptionHelper.m */,
+				819837101DEFDFC60044C3FA /* Base64.h */,
+				819837111DEFDFC60044C3FA /* Base64.m */,
 				30FA3D3A1A6F74B900CCB8D1 /* Images.xcassets */,
 				30FA3D3C1A6F74B900CCB8D1 /* LaunchScreen.xib */,
 				30FA3D2D1A6F74B900CCB8D1 /* Supporting Files */,
@@ -230,6 +248,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8198371D1DF0238D0044C3FA /* EncyptionViewController.xib in Resources */,
 				30FA3D391A6F74B900CCB8D1 /* Main.storyboard in Resources */,
 				30FA3D3E1A6F74B900CCB8D1 /* LaunchScreen.xib in Resources */,
 				30FA3D3B1A6F74B900CCB8D1 /* Images.xcassets in Resources */,
@@ -254,11 +273,14 @@
 				30FA3D6E1A6F74DD00CCB8D1 /* FourthViewController.m in Sources */,
 				30FA3D6C1A6F74DD00CCB8D1 /* FifthViewController.m in Sources */,
 				81F801851DE2C9D500166498 /* TVBTabBarItem.m in Sources */,
+				8198371C1DF0238D0044C3FA /* EncyptionViewController.m in Sources */,
 				30FA3D6D1A6F74DD00CCB8D1 /* FirstViewController.m in Sources */,
 				30FA3D781A6F74DD00CCB8D1 /* ThirdViewController.m in Sources */,
 				30FA3D331A6F74B900CCB8D1 /* AppDelegate.m in Sources */,
 				30FA3D301A6F74B900CCB8D1 /* main.m in Sources */,
+				8198370F1DEFD50F0044C3FA /* EncryptionHelper.m in Sources */,
 				30FA3D6B1A6F74DD00CCB8D1 /* TVBViewController.m in Sources */,
+				819837121DEFDFC60044C3FA /* Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,6 +8,7 @@
 
 #import "FirstViewController.h"
 #import "FifthViewController.h"
+#import "EncyptionViewController.h"
 
 @interface FirstViewController ()
 
@@ -43,9 +44,13 @@
 
 - (void)goOtherView:(UIButton *)sender{
     
-    FifthViewController * fifth = [[FifthViewController alloc]init];
-    fifth.hidesBottomBarWhenPushed = YES;
-    [self.navigationController pushViewController:fifth animated:YES];
+//    FifthViewController * fifth = [[FifthViewController alloc]init];
+//    fifth.hidesBottomBarWhenPushed = YES;
+//    [self.navigationController pushViewController:fifth animated:YES];
+    
+    EncyptionViewController *encyptionVCtrl = [[EncyptionViewController alloc] init];
+    encyptionVCtrl.hidesBottomBarWhenPushed = YES;
+    [self.navigationController pushViewController:encyptionVCtrl animated:YES];
 }
 
 - (void)viewWillAppear:(BOOL)animated{

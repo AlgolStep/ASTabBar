@@ -10,4 +10,11 @@
 
 @interface EncryptionHelper : NSObject
 
+- (NSString *)md5HexDigest:(NSString *)key;
+//AES
+-(NSString *)aes256_encrypt:(NSString *)key;
+
+-(NSString *)aes256_decrypt:(NSString *)key;
+//SHA
+- (NSString *)sha256HexDigest:(NSString *)key;
 @end

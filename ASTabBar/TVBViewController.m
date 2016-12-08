@@ -12,7 +12,7 @@
 #import "SecondViewController.h"
 #import "ThirdViewController.h"
 #import "FourthViewController.h"
-
+#import "EncyptionViewController.h"
 #import "TVBTabBarItem.h"
 
 static NSString *tabTitleKey = @"title";
@@ -51,7 +51,7 @@ alpha:1.0]
     [[UITabBarItem appearance] setTitleTextAttributes:[NSDictionary dictionaryWithObjectsAndKeys:GREENCOLOR,NSForegroundColorAttributeName,nil]
                                              forState:UIControlStateSelected];
     
-    FirstViewController * first = [[FirstViewController alloc]init];
+    EncyptionViewController * first = [[EncyptionViewController alloc]init];
     SecondViewController * second = [[SecondViewController alloc]init];
     ThirdViewController * third = [[ThirdViewController alloc]init];
     FourthViewController * fourth = [[FourthViewController alloc]init];

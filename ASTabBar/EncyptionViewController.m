@@ -25,6 +25,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
     encryptionHelper = [[EncryptionHelper alloc] init];
+    NSArray *array = [@"6*4+" componentsSeparatedByString:@"+"];
 }
 
 - (void)didReceiveMemoryWarning {

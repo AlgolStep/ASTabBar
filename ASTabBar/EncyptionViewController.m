@@ -17,6 +17,7 @@
 @property (weak, nonatomic) IBOutlet UILabel *aesEncyLabel;
 @property (weak, nonatomic) IBOutlet UILabel *aesUnencyLabel;
 @property (weak, nonatomic) IBOutlet UILabel *shaEncyLabel;
+@property (weak, nonatomic) IBOutlet UILabel *hmacLabel;
 @end
 
 @implementation EncyptionViewController
@@ -54,6 +55,14 @@
     self.shaEncyLabel.text = shaEncyResult;
 
 }
+
+- (IBAction)hmac_sha1_action:(UIButton *)sender {
+    NSString *inputString = self.inputTextField.text;
+    NSString *hmac_shaEncyResult = [encryptionHelper hmacsha1:inputString key:@"abc"];
+    self.hmacLabel.text = hmac_shaEncyResult;
+
+}
+
 
 /*
 #pragma mark - Navigation

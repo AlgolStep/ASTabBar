@@ -13,6 +13,7 @@
             <connections>
                 <outlet property="aesEncyLabel" destination="FCD-HQ-k8m" id="39N-e8-ver"/>
                 <outlet property="aesUnencyLabel" destination="nbn-2Z-1iD" id="cRi-QG-4Y0"/>
+                <outlet property="hmacLabel" destination="mIh-vD-kob" id="2A9-wR-jjO"/>
                 <outlet property="inputTextField" destination="qC6-Fo-bky" id="AAA-eu-NDf"/>
                 <outlet property="md5Label" destination="Ezw-Zg-sKh" id="sWP-lv-ZgG"/>
                 <outlet property="shaEncyLabel" destination="Wgl-FH-yh7" id="NOD-2k-cQ4"/>
@@ -129,12 +130,37 @@
                     <nil key="textColor"/>
                     <nil key="highlightedColor"/>
                 </label>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gPO-hV-Npj">
+                    <rect key="frame" x="3" y="291" width="74" height="27"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="74" id="B2Q-zL-ywf"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                    <state key="normal" title="HMAC加密：">
+                        <color key="titleColor" red="0.035294117649999998" green="0.64313725489999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="hmac_sha1_action:" destination="-1" eventType="touchUpInside" id="m7p-rP-kPq"/>
+                        <action selector="shaEncyAction:" destination="-1" eventType="touchUpInside" id="hAQ-qX-Wgv"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.30000001192092896" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mIh-vD-kob">
+                    <rect key="frame" x="85" y="291" width="254" height="30"/>
+                    <color key="backgroundColor" red="0.035294117649999998" green="0.64313725489999995" blue="0.32156862749999998" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="YR8-O0-EzJ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
             </subviews>
             <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
             <constraints>
                 <constraint firstAttribute="trailing" secondItem="FCD-HQ-k8m" secondAttribute="trailing" constant="36" id="1cU-JU-iKu"/>
                 <constraint firstAttribute="trailing" secondItem="Wgl-FH-yh7" secondAttribute="trailing" constant="36" id="21c-yK-LZ9"/>
                 <constraint firstItem="FCD-HQ-k8m" firstAttribute="top" secondItem="Ezw-Zg-sKh" secondAttribute="bottom" constant="26" id="2vE-T8-PFP"/>
+                <constraint firstItem="mIh-vD-kob" firstAttribute="leading" secondItem="gPO-hV-Npj" secondAttribute="trailing" constant="8" id="4Do-Ru-vjl"/>
                 <constraint firstItem="ZAj-3p-17L" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="3" id="63h-Zv-vhZ"/>
                 <constraint firstItem="UvO-e3-AIR" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="3" id="Bjv-z5-PcO"/>
                 <constraint firstItem="Ezw-Zg-sKh" firstAttribute="leading" secondItem="mt5-iG-M7D" secondAttribute="trailing" constant="8" id="EoO-zt-Uy0"/>
@@ -146,8 +172,10 @@
                 <constraint firstItem="mt5-iG-M7D" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="3" id="W4k-oq-IrZ"/>
                 <constraint firstItem="UvO-e3-AIR" firstAttribute="top" secondItem="ZAj-3p-17L" secondAttribute="bottom" constant="21" id="WBy-Px-XkQ"/>
                 <constraint firstItem="ZAj-3p-17L" firstAttribute="top" secondItem="mt5-iG-M7D" secondAttribute="bottom" constant="30" id="csv-LW-cUp"/>
+                <constraint firstItem="gPO-hV-Npj" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="3" id="dMB-xG-ujZ"/>
                 <constraint firstAttribute="trailing" secondItem="qC6-Fo-bky" secondAttribute="trailing" constant="55" id="fVg-3y-omt"/>
                 <constraint firstItem="qC6-Fo-bky" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="55" id="gYF-oH-cDs"/>
+                <constraint firstItem="mIh-vD-kob" firstAttribute="top" secondItem="Wgl-FH-yh7" secondAttribute="bottom" constant="7" id="hkJ-In-Z6Q"/>
                 <constraint firstItem="FCD-HQ-k8m" firstAttribute="leading" secondItem="ZAj-3p-17L" secondAttribute="trailing" constant="8" id="i0L-iG-WCy"/>
                 <constraint firstAttribute="trailing" secondItem="nbn-2Z-1iD" secondAttribute="trailing" constant="36" id="i6l-aa-bbd"/>
                 <constraint firstItem="Wgl-FH-yh7" firstAttribute="top" secondItem="nbn-2Z-1iD" secondAttribute="bottom" constant="8" id="nFg-Gq-qqN"/>
@@ -156,7 +184,9 @@
                 <constraint firstAttribute="trailing" secondItem="Ezw-Zg-sKh" secondAttribute="trailing" constant="36" id="quO-XH-0hH"/>
                 <constraint firstItem="qC6-Fo-bky" firstAttribute="top" secondItem="roB-2f-Apz" secondAttribute="bottom" constant="8" id="rgg-kU-ReU"/>
                 <constraint firstItem="roB-2f-Apz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="s11-hh-6FG"/>
+                <constraint firstItem="gPO-hV-Npj" firstAttribute="top" secondItem="M9f-3K-LAB" secondAttribute="bottom" constant="8" id="s9L-AV-CoS"/>
                 <constraint firstItem="M9f-3K-LAB" firstAttribute="top" secondItem="UvO-e3-AIR" secondAttribute="bottom" constant="8" id="vKH-xF-hxv"/>
+                <constraint firstAttribute="trailing" secondItem="mIh-vD-kob" secondAttribute="trailing" constant="36" id="vbz-3X-oDi"/>
                 <constraint firstItem="M9f-3K-LAB" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="3" id="yJS-nI-DhO"/>
             </constraints>
             <point key="canvasLocation" x="33.5" y="53.5"/>

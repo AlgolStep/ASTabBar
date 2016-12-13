@@ -17,4 +17,8 @@
 -(NSString *)aes256_decrypt:(NSString *)key;
 //SHA
 - (NSString *)sha256HexDigest:(NSString *)key;
+
+#pragma mark - HMAC_SHA1加密
+
+- (NSString *)hmacsha1:(NSString *)text key:(NSString *)secret;
 @end

@@ -9,16 +9,16 @@
 #import <Foundation/Foundation.h>
 
 @interface EncryptionHelper : NSObject
-
+//md5
 - (NSString *)md5HexDigest:(NSString *)key;
 //AES
 -(NSString *)aes256_encrypt:(NSString *)key;
-
 -(NSString *)aes256_decrypt:(NSString *)key;
+
+
 //SHA
 - (NSString *)sha256HexDigest:(NSString *)key;
 
 #pragma mark - HMAC_SHA1加密
-
 - (NSString *)hmacsha1:(NSString *)text key:(NSString *)secret;
 @end

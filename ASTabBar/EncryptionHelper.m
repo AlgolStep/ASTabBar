@@ -164,7 +164,6 @@
 }
 
 #pragma mark - HMAC_SHA1加密
-
 - (NSString *)hmacsha1:(NSString *)text key:(NSString *)secret {
     NSData *secretData = [secret dataUsingEncoding:NSUTF8StringEncoding];
     NSData *clearTextData = [text dataUsingEncoding:NSUTF8StringEncoding];
